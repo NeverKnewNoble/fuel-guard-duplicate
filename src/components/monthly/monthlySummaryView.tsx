@@ -194,7 +194,7 @@ export default function MonthlySummaryView({ initialPeriodId }: { initialPeriodI
               value={periodId}
               onChange={(e) => setPeriodId(e.target.value)}
               disabled={periods.isPending}
-              className="h-11 cursor-pointer rounded-xl border border-slate-200 bg-white px-4 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500/50"
+              className="h-11 cursor-pointer rounded-xl border border-slate-200 bg-surface px-4 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500/50"
             >
               {periods.data?.map((p) => (
                 <option key={p.id} value={p.id}>
@@ -206,7 +206,7 @@ export default function MonthlySummaryView({ initialPeriodId }: { initialPeriodI
 
             <a
               href={exportHref(periodId)}
-              className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-slate-300 hover:bg-slate-50"
+              className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-surface px-4 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-slate-300 hover:bg-slate-50"
             >
               <Download className="h-4 w-4" aria-hidden />
               Export CSV

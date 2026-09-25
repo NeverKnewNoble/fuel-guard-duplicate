@@ -15,7 +15,7 @@ import type { AlertThreshold } from "@/types/standards";
 const primary =
   "inline-flex h-11 w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-brand-600 px-5 text-sm font-medium text-white shadow-sm transition-colors hover:bg-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:ring-offset-2 sm:w-auto";
 const secondary =
-  "inline-flex h-11 w-full shrink-0 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-slate-300 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:ring-offset-2 sm:w-auto";
+  "inline-flex h-11 w-full shrink-0 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-surface px-5 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-slate-300 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:ring-offset-2 sm:w-auto";
 
 /** Button + the modal it opens, so the surrounding page can stay a server component. */
 function Trigger({
@@ -103,7 +103,7 @@ export function NewFuelLogEntryButton() {
 
 /** Compact button for a DataCard header. */
 const cardAction =
-  "inline-flex h-10 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 text-sm font-medium text-slate-700 transition-colors hover:border-slate-300 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:ring-offset-2";
+  "inline-flex h-10 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-surface px-4 text-sm font-medium text-slate-700 transition-colors hover:border-slate-300 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:ring-offset-2";
 
 export function EditThresholdsButton({ thresholds }: { thresholds: AlertThreshold[] | null }) {
   const [open, setOpen] = useState(false);

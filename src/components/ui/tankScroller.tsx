@@ -87,7 +87,7 @@ export default function TankScroller({ tanks, emptyAction }: { tanks: TankCardDa
   }
 
   const arrowClass =
-    "absolute top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-slate-200 bg-white/95 text-slate-700 shadow-lg backdrop-blur transition-all hover:scale-105 hover:bg-brand-500 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500 active:scale-95 sm:h-16 sm:w-16";
+    "absolute top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-slate-200 bg-surface/95 text-slate-700 shadow-lg backdrop-blur transition-all hover:scale-105 hover:bg-brand-500 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500 active:scale-95 sm:h-16 sm:w-16";
 
   return (
     <section>

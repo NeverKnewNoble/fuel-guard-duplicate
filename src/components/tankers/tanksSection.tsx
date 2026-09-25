@@ -25,7 +25,7 @@ export default function TanksSection() {
     return (
       <section>
         <h2 className="text-base font-semibold text-slate-900">Fuel tankers</h2>
-        <div className="mt-3 rounded-2xl border border-slate-200 bg-white">
+        <div className="mt-3 rounded-2xl border border-slate-200 bg-surface">
           <ErrorState size="sm" what="tankers" message={query.error.message} onRetry={() => query.refetch()} retrying={query.isFetching} />
         </div>
       </section>

@@ -50,7 +50,7 @@ export default function AnimatedStatTile({
 
   return (
     <div
-      className="rounded-2xl border border-slate-200 bg-white p-4 opacity-0 shadow-[0_1px_2px_rgba(15,23,42,0.04)]"
+      className="rounded-2xl border border-slate-200 bg-surface p-4 opacity-0 shadow-[0_1px_2px_rgba(15,23,42,0.04)]"
       style={{
         animation: `riseIn 420ms cubic-bezier(0.16,1,0.3,1) ${delay}ms forwards`,
       }}
